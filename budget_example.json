@@ -1,0 +1,58 @@
+{
+  "status": "ILLUSTRATIVE_ASSUMPTIONS_NOT_MEASUREMENTS",
+  "assumptions": {
+    "nodes": "1000000",
+    "channels": "6",
+    "bits_per_channel": "16",
+    "payload_retained_fraction": "0.1",
+    "sample_retention_scenario": "10% of complete fixed-size joint records; no re-encoding",
+    "recording_seconds": "86400",
+    "training_passes": "2",
+    "hypothetical_training_samples_per_second": "50000",
+    "update_parameters": "1000000",
+    "bits_per_parameter": "4",
+    "hypothetical_receive_joules_per_bit": "0.0000001",
+    "hypothetical_surplus_harvest_watts": "0.00001"
+  },
+  "traffic": [
+    {
+      "rate_hz": "0.1",
+      "raw_bytes_per_day": "103680000000.0",
+      "raw_TB_per_day_decimal": "0.10368",
+      "ten_percent_payload_GB_per_day": "10.368"
+    },
+    {
+      "rate_hz": "1",
+      "raw_bytes_per_day": "1036800000000",
+      "raw_TB_per_day_decimal": "1.0368",
+      "ten_percent_payload_GB_per_day": "103.68"
+    },
+    {
+      "rate_hz": "10",
+      "raw_bytes_per_day": "10368000000000",
+      "raw_TB_per_day_decimal": "10.368",
+      "ten_percent_payload_GB_per_day": "1036.8"
+    }
+  ],
+  "one_hz_retained_joint_samples": "8640000000.0",
+  "hypothetical_training_seconds": "345600.0",
+  "hypothetical_training_hours": "96.0",
+  "update_bytes_without_metadata": "500000",
+  "receive_energy_joules_without_overheads": "0.4000000",
+  "harvest_seconds_for_receive_only": "40000.00",
+  "harvest_hours_for_receive_only": "11.11111111111111111111111111",
+  "fleet_unicast_payload_TB_decimal": "0.5",
+  "not_included": [
+    "headers",
+    "timestamps",
+    "loss/retransmissions",
+    "synchronization",
+    "representation quality",
+    "preprocessing",
+    "training utilization variation",
+    "model optimizer/memory",
+    "update verification",
+    "flash writes",
+    "rollback storage"
+  ]
+}

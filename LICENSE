@@ -1,0 +1,24 @@
+Copyright 2026 AnimaFoundry.
+
+The original manuscript, accompanying documentation, original schematic,
+and original explanatory metadata are licensed under the Creative Commons
+Attribution 4.0 International Public License (CC BY 4.0).
+Full terms: LICENSE-TEXT
+Canonical terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Original Python scripts and workflow configuration are licensed under the
+MIT License. Full terms: LICENSE-CODE
+
+This grant covers only rights the licensor holds. Bibliographic facts do
+not imply ownership of referenced works. Cited publications, standards,
+trademarks, and separately installed dependencies retain their own rights.
+No cited source paper, figure, model, or dataset is included in this release.
+No third-party patent license or freedom-to-operate conclusion is granted.
+
+Suggested attribution:
+AnimaFoundry (2026), Low-Power Sensing for an Internet of Intelligence:
+Materials, Distributed Architectures, and World-Model Learning, v1.0.0.
+https://github.com/AnimaFoundry/internet-of-intelligence-review
+
+Indicate changes when sharing adaptations. See LICENSE-TEXT and LICENSE-CODE
+for the applicable warranty disclaimers and full conditions.

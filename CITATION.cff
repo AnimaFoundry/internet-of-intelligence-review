@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this versioned review preprint; it has not been peer reviewed."
+type: article
+title: "Low-Power Sensing for an Internet of Intelligence: Materials, Distributed Architectures, and World-Model Learning"
+authors:
+  - name: "AnimaFoundry"
+version: "1.0.0"
+date-released: 2026-10-16
+url: "https://github.com/AnimaFoundry/internet-of-intelligence-review"
+license: CC-BY-4.0
+keywords:
+  - low-power sensing
+  - Internet of Intelligence
+  - world models
+  - edge intelligence
+  - energy harvesting
+abstract: "A critical integrative review of low-power sensing materials, implemented distributed architectures, world-model learning, and the return of validated capabilities to heterogeneous endpoints. The review separates component results from whole-system feasibility and proposes falsifiable comparisons. No original hardware or model experiment is reported."
