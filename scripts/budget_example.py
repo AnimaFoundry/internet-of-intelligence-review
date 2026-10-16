@@ -45,5 +45,5 @@ def calculate():
 if __name__ == '__main__':
     result = calculate()
     destination = Path(__file__).resolve().parents[1] / 'budget_example.json'
-    destination.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
+    destination.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps(result, indent=2))
